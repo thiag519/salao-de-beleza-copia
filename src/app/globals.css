@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+:root {
+  --color-logo: #171717;
+  --color-light: #ffffff;
+  --color-dark: #959595;
+  --color-highlight: #bfdfe0;
+}
+:root {
+  --font-main:'Playfair_Display_SC';
+  --font-secondary: 'Inria_Serif';
+  --font-button: 'Karla', sans-serif;
+  --font-destac: 'Mea_Culpa', inria;
+ 
+}
+/* Calculo para estabilizar o layout no mobile*/
+.section {
+  height: 100dvh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+body {
+  background: var(--color-light);
+  color: var(--color-logo);
+  font-family: var(--font-main, --font-secondary, --font-button, --font-destac);
+  font-display: swap;
+  width: var(--width-all, --width-center);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height:100%;
+  overflow-x: hidden;
+
+}
+h1, li, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  user-select: none;
+}
+div {
+  font-family: var(--font-destac);
+  user-select: none;
+}
+p, label {
+  font-family: var(--font-secondary);
+  user-select: none;
+}
+button {
+  font-family: var(--font-button);
+}
