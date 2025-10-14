@@ -42,7 +42,7 @@ export const Informacoes = ({informacoes}: Props) => {
       </div>
       <div className="w-full text-center flex h-[20%] items-center justify-center">
         <p className="text-[9px] sm:text-[10px] md:text-[11px] lg:text-[13px] text-white/45 ">
-          Copyright: © 2025 Império da Beleza. Todos os direitos reservados.
+          Copyright: © 2025 Beleza. Todos os direitos reservados.
         </p>
       </div>
     </div>
