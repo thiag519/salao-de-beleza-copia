@@ -1,6 +1,10 @@
 # Projeto - Salão de Beleza
-Este é um projeto desenvolvido para um salão de beleza, com foco em apresentar serviços, equipe e formas de contato de maneira moderna, responsiva e agradável.
+Este é um projeto desenvolvido para um Salão de Beleza, com foco em apresentar serviços, equipe e formas de contato de maneira moderna, responsiva e agradável.
 O site foi construído utilizando Next.js, React, TypeScript e Tailwind CSS.
+
+<div>
+ <img width="1764" height="911" alt="Império da Beleza" src="https://github.com/user-attachments/assets/b067f531-f672-49dc-a9cb-59c9c963dd0f" />
+</div>
 
 #### ⚠️ Este repositório é uma cópia do projeto original, criado apenas para fins de demonstração e portfólio.
 
