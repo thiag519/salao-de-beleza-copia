@@ -32,6 +32,9 @@ O site foi construído utilizando Next.js, React, TypeScript e Tailwind CSS.
 ├── public/           # Imagens e ícones
 ├── src/
 │   ├── components/   # Componentes reutilizáveis
+│   ├── area/         # Área de seções do site 
+│   ├── context/      # Compartilhar dados entre componentes 
+│   ├── hooks/        # Organizar a lógica e reutilizar código
 │   ├── app/          # Páginas do Next.js
 │   ├── styles/       # Estilos globais
 │   ├── utils/        # Funções auxiliares
